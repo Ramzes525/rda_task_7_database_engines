@@ -35,5 +35,4 @@ CREATE TABLE ProductReporting (
     Date DATE,
     ProductName VARCHAR(50),
     Orders INT,
-    PRIMARY KEY (Date, ProductName)
 ) ENGINE=CSV;
